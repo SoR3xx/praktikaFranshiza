@@ -28,9 +28,139 @@
     font-style: normal; 
     font-weight: 600; 
 }
-h1{
+body{
     font-family: "Montserrat";
 }
-.Main{
-background-color: red;
+.Sec1Div{
+    background-image: url(../images/Main.png);
+    width: 1600px;
+    height: 1111px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.headerDiv{
+    width: 1600px;
+    height: 192px;
+    padding: 27px 0 0 55px;
+    display: flex;
+}
+.HeaderText{
+    width: 462px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    font-style: normal;
+    line-height: 29px;
+    margin-left: 156px;
+    margin-top: 49px;
+}
+.HeaderNav p{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 7px;
+}
+.HeaderNav img{
+    margin-left: 7px;
+}
+.phoneNumber{
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    text-align: right;
+}
+.iconsHeader{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.HeaderNav{
+    margin: 45px 0 0 109px;
+}
+.MainText1{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 19px;
+}
+.MainText2 span{
+    color: #402D50;
+}
+.MainText2{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 15px auto;
+    width: 1368px;
+    height: 98px;
+    font-style: normal;
+    text-align: center;
+}
+.ShortAbout{
+    width: 539px;
+    height: 407px;
+    margin: 38px 0 0 116px;
+}
+.ShortAbout p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    color: white;
+    height: 58px;
+    margin-left: 50px;
+}
+.ShortAbout div{
+    display: flex;
+    margin-bottom: 41px;
+}
+.Text1{
+    width: 250px;
+}
+.Text2{
+    width: 250px;
+}
+.Text3{
+    width: 353px;
+}
+.Text4{
+    width: 418px;
+}
+.ShortAboutContainerLast{
+    margin-bottom: 0;
+}
+.GetPlanText{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    margin: 69px 0 0 116px;
+}
+.buttonDownload{
+    display: flex;
+    width: 299px;
+    height: 91px;
+    background-color: #a56492;
+    border-radius: 20px;
+    filter: drop-shadow(0px 2px 22px #FFFFFF);
+    margin: 54px 0 0 169px;
+}
+.GetTextButton{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: normal;
+    margin: 36px 0 0 17px;
+}
+.DownloadImage{
+    width: 71px;
+    height: 71px;
+    margin: 9px 0 0 23px;
 }
