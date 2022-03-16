@@ -414,6 +414,9 @@ input::-webkit-input-placeholder{
 .CircleContainer2{
     margin-left: 34px;
 }
+.CircleContainer3{
+    margin-left: 46px;
+}
 .Sec5Div h2{
     width: 664px;
     height: 88px;
@@ -449,14 +452,42 @@ input::-webkit-input-placeholder{
     width: 242px;
 }
 .OfferingsText5{
-    width: 122px;
+    width: 157px;
 }
 .OfferingsText6{
     width: 201px;
 }
 .OfferingsText7{
-    width: 102px;
+    width: 157px;
 }
 .OfferingsText8{
-    width: 121px;
+    width: 157px;
+}
+.Image1Sec5{
+    margin: 0 0 20px 7px;
+}
+.Image2Sec5{
+    margin: 0 0 23px 13px;
+}
+.Image3Sec5{
+    margin: 0 0 23px 3px;
+}
+.Image4Sec5{
+    margin: 0 0 19px 42px;
+}
+.Image5Sec5{
+    margin-bottom: 20px;
+}
+.Image6Sec5{
+    margin: 0 0 25px 22px;
+}
+.Image7Sec5{
+    margin-bottom: 20px;
+}
+.Image8Sec5{
+    margin-bottom: 20px;
+}
+.OfferingsText5 p{
+    margin-left: 20px;
+    text-align: center;
 }
