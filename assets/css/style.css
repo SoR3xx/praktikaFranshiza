@@ -32,16 +32,16 @@
 body{
     font-family: "Montserrat";
 }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* --------------------- Section 1 --------------------- */
 .Sec1Div{
     background-image: url(../images/Main.png);
     width: 1600px;
     height: 1111px;
-}
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 }
 .headerDiv{
     width: 1600px;
