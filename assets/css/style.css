@@ -1,3 +1,4 @@
+/* --------------------- Fonts connection --------------------- */
 @font-face {
     font-family: "Montserrat";
     src: url("../fonts/static/Montserrat-Black.ttf") format("truetype");
@@ -31,6 +32,7 @@
 body{
     font-family: "Montserrat";
 }
+/* --------------------- Section 1 --------------------- */
 .Sec1Div{
     background-image: url(../images/Main.png);
     width: 1600px;
@@ -163,4 +165,298 @@ a{
     width: 71px;
     height: 71px;
     margin: 9px 0 0 23px;
+}
+/* --------------------- Section 2 --------------------- */
+.Sec2Div{
+    width: 1600px;
+    height: 779px;
+    filter: drop-shadow(0px 4px 21px rgba(0, 0, 0, 0.25));
+    background-color: white;
+    display: flex;
+}
+.coronavirus{
+    margin: 88px 182px 0 116px;
+}
+.bestTimeText{
+    width: 409px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 64px;
+}
+.TextContainerUsualSec2{
+    width: 602px;
+    height: 312px;
+}
+.sec2TextContainer{
+    margin-top: 100px;
+}
+.TextContainerUsualSec2 p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.buttonSec2{
+    background-color: #a56492;
+    width: 480px;
+    height: 91px;
+    border-radius: 20px;
+    padding: 31px 0 0 41px;
+    margin-top: 64px;
+    filter: drop-shadow(0px 2px 22px #000000);
+}
+.buttonSec2 p{
+    font-weight: 500;
+    font-size: 24px;
+}
+/* --------------------- Section 3 --------------------- */ 
+.Sec3Div{
+    width: 1600px;
+    height: 872px;
+    background-color: white;
+    display: flex;
+}
+.Sec3Div p{
+    font-size: 20px;
+}
+.DirectorContainer{
+    margin: 100px 0 0 114px;
+}
+.DirectorText{
+    font-weight: 600;
+}
+.DirectorName{
+    font-weight: 700;
+    color: #402D50;
+}
+.Sec3Div h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+.TextAndInputsContainer{
+    margin: 105px 0 0 166px;
+    width: 624px;
+    height: 667px;
+}
+.ExpertCleaningText{
+    margin: 12px 0 21px 0;
+}
+.Sec3InputsContainer{
+    margin-top: 59px;
+}
+/* --------------------- Inputs --------------------- */
+.NameInput{
+    width: 278px;
+    height: 60px;
+    background-color: #A9A6A8;
+    border: 0px solid #A9A6A8;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    padding-left: 5px;
+    border-radius: 20px;
+}
+.PhoneNumberInput{
+    width: 278px;
+    height: 60px;
+    background-color: #A9A6A8;
+    border: 0px solid #A9A6A8;
+    font-weight: 500;
+    font-size: 24px;
+    border-radius: 20px;
+    margin-left: 58px;
+    color: white;
+    padding-left: 5px;
+}
+.CallTimeInput{
+    width: 278px;
+    height: 91px;
+    background-color: #A9A6A8;
+    border: 0px solid #A9A6A8;
+    font-weight: 500;
+    font-size: 24px;
+    border-radius: 20px;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+/* --------------------- Violet text --------------------- */
+.VioletText{
+    color: #402D50;
+}
+/* --------------------- font-weight 700 --------------------- */
+.Bold700{
+    font-weight: 700;
+}
+/* --------------------- font-weight 600 --------------------- */
+.SemiBold600{
+    font-weight: 600;
+}
+input::-webkit-input-placeholder{ 
+    color: white; 
+    font-family: "Montserrat";
+    font-weight: 500;
+    white-space: pre-wrap;
+    text-align: center;
+}
+.callInputAndButton{
+   margin-top: 63px; 
+   display: flex;
+}
+.callButtonSec3{
+    display: flex;
+    background-color: #a56492;
+    width: 278px;
+    height: 91px;
+    padding-left: 38px;
+    border-radius: 20px;
+    margin-left: 58px;
+}
+#ToContact{
+    font-weight: 500;
+    margin: 31px 0 0 9px;
+    font-size: 24px;
+}
+.phoneSec3{
+    width: 61px;
+    height: 61px;
+    margin-top: 15px;
+}
+/* --------------------- Section 4 --------------------- */
+.Sec4Div{
+    width: 1600px;
+    height: 1674px;
+    background-image: url(../images/VideoSec.png);
+    border-bottom: 2px solid grey;
+}
+.VideoHolder{
+    width: 1023px;
+    height: 552.27px;
+    margin: 124px 288px;
+    background-color: #A9A6A8;
+}
+.VideoSecTextH2{
+    font-size: 36px;
+    font-weight: 700;
+    width: 1003px;
+    height: 90px;
+    text-align: center;
+    margin: 0 auto;
+}
+.VideoSecTextH2 span{
+    color: #402D50;
+}
+.ToBeFirst{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    width: 602px;
+    height: 57.38px;
+    margin: 15.57px auto;
+}
+.inputsAndButtonHolderSec4{
+    width: 1368px;
+    height: 60px;
+    display: flex;
+    margin-top: 554px;
+    margin-left: 116px;
+}
+.Sec4Input{
+    width: 300px;
+    height: 60px;
+    background-color: #A9A6A8;
+    border: 0px solid #A9A6A8;
+    border-radius: 20px;
+    font-size: 24px;
+    padding-left: 5px;
+    color: white;
+    margin-right: 56px;
+}
+.Sec4Button{
+    width: 300px;
+    height: 60px;
+    background-color: #a56492;
+    border-radius: 20px;
+    padding: 16px 0 0 79px;
+}
+#ToCheck{
+    font-weight: 500;
+    font-size: 24px;
+}
+/* --------------------- Section 5 --------------------- */
+.Sec5Div{
+    width: 1600px;
+    height: 949px;
+    background-color: white;
+}
+.circleSec5{
+    width: 157px;
+    height: 157px;
+    background-color: #a56492;
+    border-radius: 50%;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    
+}
+.firstRow{
+    display: flex;
+    margin-bottom: 80px;
+}
+.SecondRow{
+    display: flex;
+}
+.Offerings img{
+    margin: 0 auto;
+}
+.Offerings{
+    margin-left: 369px;
+}
+.CircleContainer2{
+    margin-left: 34px;
+}
+.Sec5Div h2{
+    width: 664px;
+    height: 88px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 100px 0 0 468px;
+}
+.ExpertCleaningTextSec5{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 900px;
+    height: 48px;
+    margin: 28px 0 47px 350px;
+}
+.Offerings p{
+    font-weight: 700;
+    font-size: 20px;
+    height: 48px;
+    text-align: center;
+}
+.OfferingsText1{
+    width: 171px;
+}
+.OfferingsText2{
+    width: 184px;
+}
+.OfferingsText3{
+    width: 162px;
+}
+.OfferingsText4{
+    width: 242px;
+}
+.OfferingsText5{
+    width: 122px;
+}
+.OfferingsText6{
+    width: 201px;
+}
+.OfferingsText7{
+    width: 102px;
+}
+.OfferingsText8{
+    width: 121px;
 }
