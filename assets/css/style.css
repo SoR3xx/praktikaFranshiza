@@ -491,3 +491,113 @@ input::-webkit-input-placeholder{
     margin-left: 20px;
     text-align: center;
 }
+/* --------------------- Section 6 --------------------- */
+.Sec6Div{
+    width: 1600px;
+    height: 671px;
+    background-color: white;
+    display: flex;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;   
+}
+.textOurEmployees{
+    font-weight: 700;
+    font-size: 36px;
+    width: 378px;
+    height: 133px;
+    margin: 100px 218px 0 165px;
+}
+.cleaners{
+    width: 693px;
+    height: 733px;
+}
+.thumbsUpContainer{
+    width: 402px;
+    height: 98px;
+    display: flex;
+    margin: 241px 0 0 165px;
+}
+.textThumbUp{
+    font-weight: 600;
+    font-size: 20px;
+    width: 290px;
+    height: 52px;
+    margin: 23px 0 0 14px;
+}
+/* --------------------- Section 7 --------------------- */
+.Sec7Div{
+    width: 1600px;
+    height: 862px;
+    background-color: white;
+    border-bottom: 10px solid grey;
+}
+.HowToEarn{
+    width: 900px;
+    height: 108px;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin: 108px auto 0 auto;
+}
+.HowToEarn span{
+    color: white;
+    background-color: #a56492;
+}
+.CalculationsText{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 12px 0 0 422px;
+}
+.AveragePayText{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 2.32px;
+}
+.AveragePayText span{
+    color: #402D50;
+}
+.Rub8500Text{
+    color: white;
+    background-color: #a56492;
+    font-weight: 700;
+    font-size: 30px;
+    width: 289px;
+    height: 48px;
+    text-align: center;
+    margin-left: 30px;
+    padding-top: 2.32px;
+}
+.TextHolderSec7{
+    width: 1028px;
+    height: 58px;
+    display: flex;
+    margin: 10px 0 0 300px;
+}
+.statistics{
+    margin: 28px 0 0 116px;
+    width: 1368px;
+    height: 418px;
+}
+.line{
+    width: 709px;
+    margin-left: 300px;
+}
+/* --------------------- Section 8 --------------------- */
+.Sec8Div{
+    width: 1600px;
+    height: 568px;
+    background-color: white;
+    text-align: center;
+}
+.HowManyOrdersText{
+    font-weight: 700;
+    font-size: 36px;
+}
+.HowManyOrdersText span{
+    color: white;
+    background-color: #a56492; 
+}
+
+/* --------------------- Section 9 --------------------- */
+
+/* --------------------- Section 10 --------------------- */
