@@ -588,16 +588,538 @@ input::-webkit-input-placeholder{
     height: 568px;
     background-color: white;
     text-align: center;
+    border-bottom: 10px solid grey;
 }
 .HowManyOrdersText{
     font-weight: 700;
     font-size: 36px;
+    width: 748px;
+    height: 110px;
+    margin: 100px 0 0 426px;
 }
 .HowManyOrdersText span{
     color: white;
     background-color: #a56492; 
 }
-
+.CountMoneyHolder{
+    width: 905px;
+    height: 181px;
+    display: flex;
+}
+.CountMoneyHolder h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+.wantedEarnings{
+    color: white;
+    background-color: #a56492;
+    width: 129px;
+    height: 63px;
+    margin: 3px 0 0 31px; 
+    padding: 10px 0 0 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.wantedEarningsHolder{
+    width: 477px;
+    height: 73px;
+    display: flex;
+    margin: 77px 0 0 347px;
+}
+.Line2{
+    margin-left: 347px;
+}
+.EarningsFromOneHolder{
+    width: 477px;
+    height: 78px;
+    display: flex;
+    margin: 15px 0 0 347px;
+}
+.EarningsFromOne{
+    width: 124px;
+    height: 71px;
+    background-color: #a56492;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 121px;
+}
+.equals{
+    width: 80px;
+    height: 22px;
+    margin-top: 154px;
+    margin-left: 21px;
+}
+.orders74{
+    width: 306px;
+    height: 73px;
+    margin: 128px 0 0 21px;
+    white-space: nowrap;
+}
 /* --------------------- Section 9 --------------------- */
-
+.Sec9Div{
+    width: 1600px;
+    height: 778px;
+    background-color: white;
+    background-image: url(../images/bgWorkers.png);
+    border-bottom: 10px solid grey;
+    padding-top: 100px;
+}
+.MainTextSec9{
+    width: 1097px;
+    height: 107px;
+    margin-left: 251px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+.MainTextSec9 span{
+    background-color: #a56492;
+    color: white;
+}
+.HowManyEmployeesSec9Holder{
+    width: 641px;
+    height: 401px;
+    margin: 70px 0 0 117px;
+}
+.PeopleStudyingHolder{
+    width: 641px;
+    height: 116px;
+    display: flex;
+}
+.PeopleStudyingHolder img{
+    width: 71px;
+    height: 77px;
+    margin-top: 13px;
+}
+.PeopleStudyingHolder p{
+    font-weight: 700;
+    font-size: 24px;
+    width: 520px;
+    height: 116px;
+    margin-left: 50px; 
+}
+.ExpertCleaningSpan1{
+    color: #402D50;
+}
+.Employees7{
+    font-weight: 500;
+}
+.PaymentForWorkHolder{
+    margin-top: 42px;
+    width: 641px;
+    height: 85px;
+    display: flex;
+}
+.PaymentForWorkHolder img{
+    height: 71px;
+    width: 71px;
+    margin-top: 1px;
+}
+.PaymentForWorkHolder p{
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+.PaymentForWorkHolder span{
+    font-weight: 500;
+}
+.ManagerPaymentHolder{
+    width: 638px;
+    height: 116px;
+    display: flex;
+    margin-top: 42px;
+}
+.ManagerPaymentHolder img{
+    width: 71px;
+    height: 71px;
+    margin-top: 16px;
+}
+.ManagerPaymentHolder p{
+    font-weight: 700;
+    font-size: 24px;
+    width: 517px;
+    height: 116px;
+    margin-left: 50px;
+}
+.ManagerPaymentHolder span{
+    font-weight: 500;
+}
 /* --------------------- Section 10 --------------------- */
+.Sec10Div{
+    width: 1600px;
+    height: 465px;
+    background-color: white;
+    display: flex;
+    border-bottom: 10px solid grey;
+}
+.PaymentSec10{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.PaymentInGeneralHolder p{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 40px 0 35px 0;
+}
+.PaymentInGeneralHolder{
+    margin: 100px 0 0 120px;
+}
+.Sec10Bold{
+    font-weight: 700;
+}
+.Sec10White{
+    background-color: #a56492;
+    color: white;
+}
+.PaymentInGeneralHolder .Sec10White{
+    margin-top: 10px;
+}
+.brace{
+    width: 29px;
+    height: 112px;
+    margin: 231px 0 0 53px;
+}
+.thunmbUpHolderSec10{
+    width: 361px;
+    height: 116px;
+    display: flex;
+    margin: 225px 0 0 96px;
+}
+.thunmbUpHolderSec10 p{
+    font-size: 24px;
+    margin-left: 21px;
+    font-weight: 500;
+}
+.thunmbUpHolderSec10 img{
+    margin-top: 9px;
+    width: 99px;
+    height: 98px;
+}
+/* --------------------- Section 11 --------------------- */
+.Sec11Div{
+    width: 1600px;
+    height: 640px;
+    background-color: white;
+    border-bottom: 10px solid grey;
+    background-image: url(../images/costBg.svg);
+}
+.MainTextSec11{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 100px 0 0 266px;
+    width: 996px;
+    height: 44px;
+}
+.Sec11Div h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.Sec11White{
+    background-color: #a56492;
+    color: white;
+}
+.Sec11Bold{
+    font-weight: 700;
+}
+.Sec11TextsHolder p{
+    font-size: 24px;
+    font-weight: 500px;
+    margin-top: 35px;
+}
+.Sec11TextsHolder{
+    margin: 60px 0 0 119px;
+    display: flex;
+}
+.ClearEarningTextSec11{
+    margin: 121px 0 0 102px;
+}
+.RoublesTextSec11{
+    margin: 101px 0 0 325px;
+}
+/* --------------------- Section 12 --------------------- */
+.Sec12Div{
+    width: 1600px;
+    height: 461px;
+    background-color: white;
+    display: flex;
+    border-bottom: 10px solid grey;
+}
+.Excel{
+    width: 286px;
+    height: 276px;
+    margin: 102px 0 0 84px;
+}
+.Sec12TextsAndButtonsHolder{
+    width: 1114px;
+    height: 261px;
+    margin-top: 100px;
+}
+.Sec12TextsAndButtonsHolder p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.Sec12TextsAndButtonsHolder h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 23px 0 12px 0;
+}
+.inputsAndButtonsSec12{
+    width: 1150px;
+    height: 60px;
+    display: flex;
+}
+.PhoneNumberInputSec12{
+    width: 305px;
+    height: 60px;
+    background-color: #A9A6A8;
+    border: 2px solid #A9A6A8;
+    color: white;
+    padding-left: 5px;
+    font-size: 24px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-left: 85.5px;
+}
+.NameInputSec12{
+    width: 305px;
+    height: 60px;
+    background-color: #A9A6A8;
+    border: 2px solid #A9A6A8;
+    color: white;
+    padding-left: 5px;
+    font-size: 24px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.Sec12Button{
+    width: 330px;
+    height: 60px;
+    background-color: #a56492;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 85.5px;
+}
+.Sec12Button img{
+    width: 60.3px;
+    height: 55px;
+    margin: 2px 0 0 47px;
+}
+.Sec12Button p{
+    text-transform: uppercase;
+    margin: 17px 0 0 13px;
+}
+/* --------------------- Section 13 --------------------- */
+.Sec13Div{
+    width: 1600px;
+    height: 1269px;
+    background-color: white;
+    border-bottom: 10px solid grey;
+    text-align: center;
+}
+.Sec13Div h2{
+    width: 810px;
+    height: 88px;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 100px auto 28px auto;
+}
+.Sec13Div span{
+    color: #402D50;
+}
+.Sec13Div p{
+    font-weight: 700;
+    font-size: 20px;
+}
+.AllYouNeedSec13{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 29px;
+}
+.RowSec13{
+    width: 1367px;
+    height: 260px;
+    margin: 0 0 48px 116px;
+    display: flex;
+    justify-content: space-between;
+}
+.VioletSquare{
+    width: 260px;
+    height: 260px;
+    background-color: #a56492;
+    padding-top: 35px;
+}
+.InvisibleSquare{
+    width: 260px;
+    height: 260px;
+}
+.bookSec13{
+    margin-bottom: 27px;
+}
+.CupSec13{
+    margin: 5px 0 56px 0;
+}
+.PhotoAndVideoSec13{
+    margin: 5px 0 32px 0;
+}
+.TargetSec13{
+    margin: 5px 0 56px 0;
+}
+.LineUpSec13{
+    margin-bottom: 61px;
+}
+.HelperSec13{
+    margin-bottom: 49px;
+}
+.StatsSec13{
+    margin-bottom: 49px;
+}
+.HammerSec13{
+    margin: 14px 0 49px 0;
+}
+.ExcelListSec13{
+    margin-bottom: 48px;
+}
+.StudyHatSec13{
+    margin-bottom: 28px;
+}
+.booksSec13{
+    margin-bottom: 48px; 
+}
+/* --------------------- Section 14 --------------------- */
+.Sec14Div{
+    width: 1600px;
+    height: 1216px;
+    background-color: white;
+    border-bottom: 10px solid grey;
+    background-image: url(../images/StyleSec3.png);
+    text-align: center;
+    padding-top: 100px;
+}
+.Sec14Div h2{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 28px;
+}
+.Sec14Div p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.Sec14Button{
+    width: 453px;
+    height: 80px;
+    background-color: #a56492;
+    border-radius: 20px;
+    margin: 816px 0 0 546px;
+    padding-top: 24px;
+}
+.Sec14Button p{
+    font-size: 24px;
+    font-weight: 700;
+}
+/* --------------------- Section 15 --------------------- */
+.Sec15Div{
+    width: 1600px;
+    height: 699px;
+    background-color: white;
+    border-bottom: 10px solid grey;
+    text-align: center;
+    padding-top: 100px;
+}
+.Sec15Div h2{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 64px;
+}
+.GrayRectangle{
+    width: 325px;
+    height: 185px;
+    background-color: #c4c4c4;
+}
+.RowSec15{
+    display: flex;
+    width: 1269px;
+    height: 185px;
+    justify-content: space-between;
+    margin: 0 0 21px 164px;
+}
+/* --------------------- Section 16 --------------------- */
+.Sec16Div{
+    width: 1600px;
+    height: 494px;
+    background-color: white;
+    text-align: center;
+    border-bottom: 10px solid grey;
+    background-image: url(../images/becomeFirstBg.png);
+    padding-top: 188px;
+}
+.Sec16Div h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+/* --------------------- Section 17 --------------------- */
+.Sec17Div{
+    width: 1600px;
+    height: 432px;
+    background-color: white;
+    border-bottom: 10px solid grey;
+    text-align: center;
+    padding-top: 100px;
+}
+.Sec17Div h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.Sec17Div p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px; 
+}
+.Sec17ButtonAndInputsContainer{
+    display: flex;
+    width: 1267px;
+    height: 60px;
+    background-color: red;
+    margin: 30px 0 0 166px;
+}
+/* --------------------- Section 18 --------------------- */
+.Sec18Div{
+    width: 1600px;
+    height: 465px;
+    background-color: white;
+    display: flex;
+    border-bottom: 10px solid grey;
+}
+/* --------------------- Section 19 --------------------- */
+.Sec19Div{
+    width: 1600px;
+    height: 465px;
+    background-color: white;
+    display: flex;
+    border-bottom: 10px solid grey;
+}
+/* --------------------- Section 20 --------------------- */
+.Sec20Div{
+    width: 1600px;
+    height: 465px;
+    background-color: white;
+    display: flex;
+    border-bottom: 10px solid grey;
+}
+/* --------------------- Section 21 --------------------- */
+.Sec21Div{
+    width: 1600px;
+    height: 465px;
+    background-color: white;
+    display: flex;
+    border-bottom: 10px solid grey;
+}
+/* --------------------- Section 22 --------------------- */
+.Sec22Div{
+    width: 1600px;
+    height: 465px;
+    background-color: white;
+    display: flex;
+    border-bottom: 10px solid grey;
+}
