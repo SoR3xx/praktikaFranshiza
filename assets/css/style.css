@@ -1080,32 +1080,179 @@ input::-webkit-input-placeholder{
     display: flex;
     width: 1267px;
     height: 60px;
-    background-color: red;
     margin: 30px 0 0 166px;
+    justify-content: space-between;
+}
+.NameInputSec17{
+    width: 300px;
+    height: 60px;
+    background-color: #A9A6A8;
+    border: 2px solid #A9A6A8;
+    padding-left: 5px;
+    color: white;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.PhoneNumberInputSec17{
+    width: 300px;
+    height: 60px;
+    background-color: #A9A6A8;
+    border: 2px solid #A9A6A8;
+    padding-left: 5px;
+    color: white;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.ButtonSec17_18{
+    width: 456px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #a56492;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 14px; 
 }
 /* --------------------- Section 18 --------------------- */
 .Sec18Div{
     width: 1600px;
-    height: 465px;
+    height: 911px;
     background-color: white;
-    display: flex;
+    text-align: center;
     border-bottom: 10px solid grey;
+    padding-top: 100px;
+}
+.Sec18Div h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.Sec18Div{
+    font-size: 20px;
+    font-weight: 700;
+}
+.usefulFilesContainer{
+    width: 1367px;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin: 59px auto 43px auto;
+}
+.LeaveInfo{
+    margin-top: 68px;
+}
+.InputsAndButtonSec18{
+    display: flex;
+    justify-content: space-between;
+    width: 1368px;
+    height: 60px;
+    margin: 38px auto;
+}
+.NameInputSec18{
+    width: 233px;
+    height: 60px;
+    border: 2px solid #A9A6A8;
+    background-color: #A9A6A8;
+    color: white;
+    padding-left: 5px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 500; 
+}
+.PhoneNumberInputSec18{
+    width: 242px;
+    height: 60px;
+    border: 2px solid #A9A6A8;
+    background-color: #A9A6A8;
+    color: white;
+    padding-left: 5px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 500; 
+}
+.EmailInputSec18{
+    width: 215px;
+    height: 60px;
+    border: 2px solid #A9A6A8;
+    background-color: #A9A6A8;
+    color: white;
+    padding-left: 5px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 500; 
 }
 /* --------------------- Section 19 --------------------- */
 .Sec19Div{
     width: 1600px;
-    height: 465px;
+    height: 813px;
     background-color: white;
-    display: flex;
     border-bottom: 10px solid grey;
+    text-align: center;
+    padding-top: 100px;
+}
+.Sec19Div h2{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 59px;
+}
+.QuestionAnswerContainer{
+    width: 1317px;
+    height: 61.39px;
+    margin: 0 auto 14px auto;
+    display: flex;
+    justify-content: left;
+}
+.QuestionAnswerContainer p{
+    font-weight: 700;
+    font-size: 20px;
+    margin: auto 0 auto 14px;
+}
+.QuestionAnswerContainer span{
+    color: #402D50;
+}
+.QuestionAnswerContainer:hover{
+    cursor: pointer;
+}
+.QuestionAnswerContainer:hover::after{
+    content:attr(data-title);
+    margin: auto 0 auto 14px;
+    position: absolute;
+    margin: 40px 0 0 70px;
 }
 /* --------------------- Section 20 --------------------- */
 .Sec20Div{
     width: 1600px;
-    height: 465px;
+    height: 872px;
     background-color: white;
     display: flex;
     border-bottom: 10px solid grey;
+    padding: 100px 0 0 117px;
+}
+.Sec20Div h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.FranshizaCosts p{
+    font-size: 20px;
+    font-weight: 500;
+    width: 613px;
+    margin: 28px 0 28px 0; 
+}
+.Director2NameSec17{
+    font-weight: 600;
+    font-size: 20px;
+    width: 257px;
+    margin-left: 159px;
+}
+.Director2NameSec17 span{
+    font-weight: 700;
+    color: #402D50;
+}
+.Director2Sec17 img{
+    width: 576px;
+    height: 572px;
+    margin: 35px 0 0 180px;
 }
 /* --------------------- Section 21 --------------------- */
 .Sec21Div{
