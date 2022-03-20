@@ -1376,3 +1376,82 @@ ul li{
     margin-left: 300px;
     margin-right: 200px;
 }
+/* --------------------- Modal Forms --------------------- */
+.Modal{
+    width: 980px;
+    background-color: none;
+    font-family: "Montserrat";
+}
+.Modal h2{
+    width: 496px;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 28px 0 456px;
+}
+.InputsAndButtonHolder{
+    width: 927px;
+    height: 60px;
+    display: flex;
+    margin: 38px auto 0 auto;
+    justify-content: space-between;
+}
+.NameInputModal{
+    width: 300px;
+    height: 60px;
+    background-color: #A9A6A8;
+    color: white;
+    padding-left: 5px;
+    border: 2px solid #A9A6A8;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.PhoneNumberInputModal{
+    width: 300px;
+    height: 60px;
+    background-color: #A9A6A8;
+    color: white;
+    padding-left: 5px;
+    border: 2px solid #A9A6A8;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.InputsAndButtonHolder .Button{
+    width: 276px;
+    height: 60px;
+    background-color: #a56492;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 16px;
+}
+.ContactUsModal{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.H4Modal{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 38px 0 10px 0;
+    text-align: center;
+}
+
+/* --------------------- Questions Modal --------------------- */
+.QuestionsModalDiv{
+    height: 713px;
+    width: 980px;
+    background-color: white;
+    margin-top: -236px;
+    padding-top: 52px;
+    border: 1px solid grey;
+}
+.QuestionsModalDiv .MainTextHolder{
+    width: 919px;
+    height: 231px;
+    display: flex;
+    margin: 138px 15px 0 46px;
+}
