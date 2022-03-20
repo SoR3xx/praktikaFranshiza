@@ -1365,10 +1365,10 @@ input::-webkit-input-placeholder{
     font-weight: 600;
     color: white;
 }
-ul{
+.Footer ul{
     list-style: none;
 }
-ul li{
+.Footer ul li{
     display: inline;
     text-decoration: underline;
 }
@@ -1439,7 +1439,30 @@ ul li{
     margin: 38px 0 10px 0;
     text-align: center;
 }
-
+.MainTextHolder img{
+    width: 52px;
+    height: 52px;
+}
+h5{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.MainTextHolder p{
+    font-size: 16;
+    font-weight: 400;
+    width: 225px;
+    margin-top: 12px;
+}
+.MainTextHolder div{
+    width: 225px;
+}
+#LastContainerModal{
+    width: 205px;
+}
+#LastContainerModal p{
+    width: 205px;
+}
 /* --------------------- Questions Modal --------------------- */
 .QuestionsModalDiv{
     height: 713px;
@@ -1454,4 +1477,289 @@ ul li{
     height: 231px;
     display: flex;
     margin: 138px 15px 0 46px;
+    justify-content: space-between;
+}
+/* --------------------- TechnicalDocumentation Modal --------------------- */
+.TechnicalDocumentationModalDiv{
+    height: 713px;
+    width: 980px;
+    background-color: white;
+    margin-top: -236px;
+    padding-top: 52px;
+    border: 1px solid grey;
+}
+.TechnicalDocumentationModalDiv .MainTextHolder{
+    width: 919px;
+    height: 269px;
+    display: flex;
+    margin: 138px 15px 0 46px;
+    justify-content: space-between;
+}
+/* --------------------- DistantLearning Modal --------------------- */
+.DistantLearningModalDiv{
+    height: 1189px;
+    width: 980px;
+    background-color: white;
+    margin-top: -236px;
+    padding-top: 52px;
+    border: 1px solid grey;
+}
+.DistantLearningModalDiv .MainTextHolder{
+    width: 919px;
+    height: 678px;
+    display: flex;
+    margin: 138px 15px 0 25px;
+}
+#ulLeaarning li{
+    list-style-type: disc;
+}
+#ulLeaarning{
+    margin-top: 6px;
+}
+.ThirdUlDistant{
+    margin: 0 13px;
+}
+#LastContainerModalDistant h5{
+    margin-bottom: 26px;
+}
+/* --------------------- ExcelTables Modal --------------------- */
+.ExcelTablesModalDiv{
+    height: 924px;
+    width: 980px;
+    background-color: white;
+    margin-top: -205px;
+    padding-top: 52px;
+    border: 1px solid grey;
+}
+.ExcelTablesModalDiv .MainTextHolder{
+    width: 919px;
+    height: 214px;
+    display: flex;
+    margin: 148px 15px 0 46px;
+    justify-content: space-between;
+}
+.LastExcelHolder{
+    width: 205px;
+    height: 199px;
+    margin: 28px 0 0 46px;
+}
+.LastExcelHolder p{
+    margin-top: 12px;
+}
+/* --------------------- Documents Modal --------------------- */
+.DocumentsModalDiv{
+    width: 980px;
+    height: 1034px;
+    background-color: white;
+    margin-top: -237px;
+    padding-top: 52px;
+    border: 1px solid grey;
+}
+.DocumentsModalDiv .MainTextHolder{
+    width: 922px;
+    height: 293px;
+    display: flex;
+    margin: 148px 15px 0 46px;
+    justify-content: space-between;
+}
+.LastDocumentsHolder{
+    display: flex;
+    width: 443px;
+    height: 254px;
+    margin: 28px 0 0 46px;
+}
+.LastDocumentsHolder p{
+    margin-top: 20px;
+}
+.LastDocumentsDiv{
+    margin-left: 30px;
+}
+/* --------------------- Materials Modal --------------------- */
+.MaterialsModalDiv{
+    height: 968px;
+    width: 980px;
+    background-color: white;
+    margin-top: -237px;
+    padding-top: 52px;
+    border: 1px solid grey;
+}
+.MaterialsModalDiv .MainTextHolder{
+    width: 919px;
+    height: 205px;
+    display: flex;
+    margin: 148px 15px 0 46px;
+    justify-content: space-between;
+}
+.LastMaterialsHolder{
+    display: flex;
+    width: 443px;
+    height: 254px;
+    margin: 28px 0 0 46px;
+}
+.LastMaterialsHolder p{
+    margin-top: 20px;
+}
+.LastMaterialsDiv{
+    margin-left: 30px;
+}
+/* --------------------- Sales Modal --------------------- */
+.SalesModalDiv{
+    width: 980px;
+    height: 793px;
+    background-color: white;
+    margin-top: -237px;
+    padding-top: 52px;
+    border: 1px solid grey;
+}
+.SalesModalDiv .MainTextHolder{
+    width: 919px;
+    height: 244px;
+    display: flex;
+    margin: 193px 42px 0 19px;
+    justify-content: space-between;
+}
+#DescriptionSales{
+    margin-top: 31px;
+}
+/* --------------------- Movement Modal --------------------- */
+.MovementModalDiv{
+    height: 924px;
+    width: 980px;
+    background-color: white;
+    margin-top: -237px;
+    padding-top: 71px;
+    border: 1px solid grey;
+}
+.MovementModalDiv .MainTextHolder{
+    width: 919px;
+    height: 183px;
+    display: flex;
+    margin: 156px 15px 0 46px;
+    justify-content: space-between;
+}
+.LastMovementHolder{
+    display: flex;
+    width: 443px;
+    height: 185px;
+    margin: 62px 0 0 46px;
+}
+.LastMovementHolder p{
+    margin-top: 20px;
+}
+.LastMovementDiv{
+    margin-left: 30px;
+    width: 205px;
+    height: 165px;
+}
+#m30{
+    margin-top: 30px;
+}
+.FirstMovementDiv{
+    width: 205px;
+    height: 185px;
+}
+/* --------------------- Advertisement Modal --------------------- */
+.AdvertisementModalDiv{
+    height: 1073px;
+    width: 980px;
+    background-color: white;
+    margin-top: -237px;
+    padding-top: 71px;
+    border: 1px solid grey;
+}
+.AdvertisementModalDiv .MainTextHolder{
+    width: 919px;
+    height: 230px;
+    display: flex;
+    margin: 156px 15px 0 46px;
+    justify-content: space-between;
+}
+.LastAdvertisementHolder{
+    display: flex;
+    width: 919px;
+    height: 186px;
+    margin: 15px 0 0 46px;
+    justify-content: space-between;
+}
+.LastAdvertisementHolder p{
+    margin-top: 10px;
+}
+.LastAdvertisementDiv{
+    width: 205px;
+    height: 165px;
+}
+.FirstAdvertisementDiv{
+    width: 205px;
+    height: 185px;
+}
+.lastLASTAdvertisementDiv{
+    width: 205px;
+    height: 156px;
+    margin: 28px 0 0 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lastLASTAdvertisementDiv img{
+    width: 52px;
+    height: 52px;
+}
+.LastAdvertisementHolder div{
+    width: 205px;
+}
+#AdvertisementH4Modal{
+    margin-top: 2px;
+}
+/* --------------------- PhotoVideo Modal --------------------- */
+.PhotoVideoModalDiv{
+    height: 924px;
+    width: 980px;
+    background-color: white;
+    padding-top: 52px;
+    border: 1px solid grey;
+}
+.PhotoVideoModalDiv .MainTextHolder{
+    width: 919px;
+    height: 216px;
+    display: flex;
+    margin: 130px 15px 0 46px;
+    justify-content: space-between;
+}
+.LastPhotoVideoHolder{
+    display: flex;
+    width: 443px;
+    height: 236px;
+    margin: 15px 0 0 46px;
+    justify-content: space-between;
+}
+.LastPhotoVideoHolder p{
+    margin-top: 10px;
+}
+.LastPhotoVideoHolder div{
+    width: 205px;
+}
+.LastPhotoVideoDiv{
+    width: 205px;
+    height: 165px;
+}
+.FirstPhotoVideoDiv{
+    width: 205px;
+    height: 185px;
+}
+/* --------------------- Additional Modal --------------------- */
+.AdditionalModalDiv{
+    height: 900px;
+    width: 980px;
+    background-color: white;
+    margin-top: -262px;
+    padding-top: 52px;
+    border: 1px solid grey;
+}
+.AdditionalModalDiv .MainTextHolder{
+    width: 919px;
+    height: 343px;
+    display: flex;
+    margin: 193px 42px 73px 19px;
+    justify-content: space-between;
+    
 }
